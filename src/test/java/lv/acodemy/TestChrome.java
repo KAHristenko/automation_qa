@@ -1,4 +1,5 @@
-import lv.acodemy.constants.Generic;
+package lv.acodemy;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -19,7 +20,7 @@ public class TestChrome {
         driver.quit();
     }
 
-    @Test
+    @Test(enabled = false)
     public void chromeTest() {
         driver.get(GOOGLE_URL);
 
